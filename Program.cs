@@ -15,3 +15,5 @@ for (int i = 0; i < array.Length; i++)
         array2[j] = array[i];
         j++;
     }
+
+Console.WriteLine("[ "+string.Join(" , ", array2)+" ]");
